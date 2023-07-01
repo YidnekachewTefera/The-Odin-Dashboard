@@ -103,3 +103,8 @@ i{
     font-size: 1.3em;
     font-weight: 600;
 }
+button{
+    border: white;
+    color: white;
+    background-color: #0ea5e9;
+}

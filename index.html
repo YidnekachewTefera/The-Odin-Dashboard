@@ -11,22 +11,23 @@
     <div class="dashboard-container">
         <div class="header">
             <div class="left-side-header-button">
-               
-                <button>search</button>
-                <input type="text" placeholder="Search Something">
+                <label for="search">
+                    <img style="width: 30px; margin-right: -20px;" src="assets/magnify.svg" alt="">
+                </label>
+                <input id="search" type="text" placeholder="Search Something">
             </div>
             <div class="right-side-header-button">
-                <button>Notification</button>
-                <button>logo</button>
-                <button>Morgan Oakley</button>
+                <label for=""><img style="width: 30px;" src="assets/bell-ring-outline.svg" alt=""></label>
+                <label for=""><img width="30px" style="border-radius: 50%;" src="assets/DS-160 image.JPG" alt=""></label>
+                <button>Yidnekachew Tefera</button>
             </div>
         </div>
         <div class="nav">
             <div class="nav-left">
-                <button>logo</button>
+                <img src="assets/DS-160 image.JPG" width="100px" alt="">
                 <div>
                     <p>Hi there,</p>
-                    <h2>Morgan Oakely(@morgan)</h2>
+                    <h2>Yidnekachew Tefera(yidtefera@gmail.com)</h2>
                 </div>
             </div>
             <div class="right-side-nav-button">
@@ -36,85 +37,119 @@
             </div>
         </div>
         <div class="side-nav">
-            <div style="height: 080px;" class="dashboard-title-and-icon">
+            <div style="height: 80px; display: flex; align-items: center;" class="dashboard-title-and-icon">
+                <label for=""><img width="60px" class="some" src="assets/view-dashboard-outline.svg" alt=""></label>
                 <h1>Dashboard</h1>
             </div>
-            <div>
-                <div class="side-nav-first">
-                    <label for="home"></label>
-                    <h3 id="home">Home</h3>
-                    <label for="profile"></label>
-                    <h3 id="profile">Profile</h3>
-                    <label for="messages"></label>
-                    <h3 id="messages">Messages</h3>
-                    <label for="history"></label>
-                    <h3 id="history">History</h3>
-                    <label for="tasks"></label>
-                    <h3 id="tasks">Tasks</h3>
-                    <label for="comumunities"></label>
-                    <h3 id="comumunities">Communities</h3>
+            <div style="display: flex; flex-direction: column;">
+                <div class="side-nav-first" style="display: flex; flex-direction: column;">
+                    <div class="icon-and-title-container">
+                        <label for="home"><img class="some" width="40px" src="assets/home-outline.svg" alt=""></label>
+                        <h3 id="home">Home</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="profile"><img class="some" style="width: 40px;" src="assets/card-account-details-outline.svg" alt=""></label>
+                        <h3 id="profile">Profile</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="messages"><img class="some" src="assets/message-reply-outline.svg" width="40px" alt=""></label>
+                        <h3 id="messages">Messages</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="history"><img class="some" src="assets/clock-time-five-outline.svg" width="40px" alt=""></label>
+                        <h3 id="history">History</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="tasks"><img class="some" src="assets/note-multiple-outline.svg" width="40px" alt=""></label>
+                    
+                        <h3 id="tasks">Tasks</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="comumunities"><img class="some" src="assets/account-group-outline.svg" width="40px" alt=""></label>
+                    
+                        <h3 id="comumunities">Communities</h3>
+                    </div>
                 </div>
                 <div class="side-nav-second">
-                    <label for="setting"></label>
-                    <h3 id="settings">Settings</h3>
-                    <label for="support"></label>
-                    <h3 id="support">Support</h3>
-                    <label for="privacy"></label>
-                    <h3 id="privacy">Privacy</h3>
+                    <div class="icon-and-title-container">
+                        <label for="setting"><img class="some" src="assets/cog-outline.svg" width="40px" alt=""></label>
+                        <h3 id="settings">Settings</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="support"><img class="some" src="assets/help-box-outline.svg" width="40px" alt=""></label>
+                        <h3 id="support">Support</h3>
+                    </div>
+                    <div class="icon-and-title-container">
+                        <label for="privacy"><img class="some" src="assets/security.svg" width="40px" alt=""></label>
+                        <h3 id="privacy">Privacy</h3>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
         </div>
         <div class="titles">
-            <h3>Your Projects</h3>
-            <h3 style="margin-right: 2%;">Announcements</h3>
+            <h3 style="margin-left: 1%;">Your Projects</h3>
+            <h3 style="margin-right: 6%;">Announcements</h3>
         </div>
         <div class="main-content-container">
             
             <div>
                 <div class="card-side"></div>
-                <div class="title-container">
+                <div class="title-container" style="position: relative;">
                     <p class="title">Super Cool Project</p>
                     <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="width: 30%; height: 20px; display: flex; justify-content: space-between; position: absolute; right: 20px; bottom: 20px;">
+                        <img src="assets/star-plus-outline.svg" alt=""><img src="assets/eye-plus-outline.svg" alt=""><img src="assets/source-fork.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div>
                 <div class="card-side"></div>
-                <div class="title-container">
+                <div class="title-container" style="position: relative;">
                     <p class="title">Super Cool Project</p>
                     <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="width: 30%; height: 20px; display: flex; justify-content: space-between; position: absolute; right: 20px; bottom: 20px;">
+                        <img src="assets/star-plus-outline.svg" alt=""><img src="assets/eye-plus-outline.svg" alt=""><img src="assets/source-fork.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="Announcements-box">
                 <div class="card-side"></div>
-                <div class="title-container">
+                <div class="title-container" style="position: relative;">
                     <p class="title">Super Cool Project</p>
                     <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="width: 30%; height: 20px; display: flex; justify-content: space-between; position: absolute; right: 20px; bottom: 20px;">
+                        <img src="assets/star-plus-outline.svg" alt=""><img src="assets/eye-plus-outline.svg" alt=""><img src="assets/source-fork.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div>
                 <div class="card-side"></div>
-                <div class="title-container">
+                <div class="title-container" style="position: relative;">
                     <p class="title">Super Cool Project</p>
                     <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="width: 30%; height: 20px; display: flex; justify-content: space-between; position: absolute; right: 20px; bottom: 20px;">
+                        <img src="assets/star-plus-outline.svg" alt=""><img src="assets/eye-plus-outline.svg" alt=""><img src="assets/source-fork.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div>
                 <div class="card-side"></div>
-                <div class="title-container">
+                <div class="title-container" style="position: relative;">
                     <p class="title">Super Cool Project</p>
                     <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="width: 30%; height: 20px; display: flex; justify-content: space-between; position: absolute; right: 20px; bottom: 20px;">
+                        <img src="assets/star-plus-outline.svg" alt=""><img src="assets/eye-plus-outline.svg" alt=""><img src="assets/source-fork.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div>
                 <div class="card-side"></div>
-                <div class="title-container">
+                <div class="title-container" style="position: relative;">
                     <p class="title">Super Cool Project</p>
                     <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="width: 30%; height: 20px; display: flex; justify-content: space-between; position: absolute; right: 20px; bottom: 20px;">
+                        <img src="assets/star-plus-outline.svg" alt=""><img src="assets/eye-plus-outline.svg" alt=""><img src="assets/source-fork.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,10 +167,33 @@
             <h3>Trendings</h3>
             <div class="trendings">
                 <div>
-                    <div class="card-side"></div>
-                    <div class="title-container">
-                        <p class="title">Super Cool Project</p>
-                        <p>Sed tempus ut lacus ut scelerisque.Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 250px; height: 80px;">
+                        <img src="assets/gmail.svg" width="50px">
+                        <div   >
+                            <h3 style="margin-bottom: -10px;">yidtefera@gmail.com</h3>
+                            <p >my email address</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 250px; height: 80px;">
+                        <img src="assets/facebook.svg" width="50px">
+                        <div   >
+                            <h3 style="margin-bottom: -10px; width: 170px;">@YidnekTefera</h3>
+                            <p >my facebook address</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 250px; height: 80px;">
+                        <img src="assets/instagram.svg" width="50px">
+                        <div   >
+                            <h3 style="margin-bottom: -10px; width: 170px;">@yidnekTefera</h3>
+                            <p >my instagram address</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 250px; height: 80px;">
+                        <img src="assets/phone.svg" width="50px">
+                        <div style="margin-left: -400x;">
+                            <h3 style="margin-bottom: -10px; width: 170px;">(+251)925321014</h3>
+                            <p  >my phone number</p>
+                        </div>
                     </div>
                 </div>
             </div>
